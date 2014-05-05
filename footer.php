@@ -1,0 +1,1 @@
+<p class="footer">&copy; <?php echo date("Y"); ?> IT CITI SERVICES INCORPORATED | All rights reserved.</p>

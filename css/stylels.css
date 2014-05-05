@@ -1,0 +1,215 @@
+/*header*/
+.main-header.pure-menu.pure-menu-open.pure-menu-fixed {
+	background-color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: none;
+}
+
+.main-menu.pure-menu.pure-menu-open.pure-menu-fixed.pure-menu-horizontal {
+	background-color: #3e7d3d;
+	border-bottom: none;
+	margin-top: 2em;
+}
+
+.main-menu a {
+    color: #ffffff;
+    line-height: 10px;
+	margin-right: -9px;
+	margin-left: -9px;
+	font-size: 12pt;
+}
+
+.pure-menu a:hover {
+	color: #d31f44;
+	font-weight: bold;
+}
+
+.pure-menu li a:hover, .pure-menu li a:focus {
+	background: none;
+}
+
+.main-menu ul {
+    float: right;
+    margin-right: 0.5em;
+    word-spacing: -10px;
+}
+/*logo*/
+.main-img {
+	position: absolute;
+	left:30px;
+	top: -1px;
+	z-index: 3;
+	width: 160px;
+	height: 130px;
+}
+
+/*content*/
+.content {
+	background-color: black;
+}
+/*content on homepage*/
+.content-homepage {
+	margin-top: 30em;
+}
+
+/*content on about section*/
+.content-about{
+	padding-top: 6em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.content-about blockquote {
+	color: #dddddd;
+	font-size: 10pt;
+}
+
+.content-about h3 {
+	color: #d31f44;
+	margin-left: 2em;
+	text-align: left;
+}
+
+/*content on services section*/
+.content-services {
+	color: #d31f44;
+	padding-top: 10em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.content-services h2, h3 {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.content-services p {
+	color: #dddddd;
+	margin: 2em;
+}
+
+/*content on careers section*/
+.content-careers {
+	padding-top: 10em;
+	margin-left: 3em;
+	margin-right: 1em;
+}
+
+.content-careers h2, label {
+	color: #d31f44;
+}
+
+.job-desc {
+	color: #dddddd;
+	margin-top: 1em;
+}
+
+.apply-btn {
+	margin-left: 40%;
+}
+
+.job-resp ul, .job-req ul {
+	font-size: 10pt;
+}
+
+/*content on contact section*/
+.content-contact {
+	color: #d31f44;
+	padding-top: 10em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.content-contact p {
+	color: #dddddd;
+	margin-left: 4em;
+}
+
+.content-contact h3 {
+	text-align: left;
+	margin-left: 3.5em;
+}
+
+.content-contact label {
+	font-size: 12pt;
+}
+
+/*appform*/
+.appform {
+	background-color: black;
+	padding-top: 6em;
+}
+
+.appform h2 {
+	color: #d31f44;
+}
+
+.appform .pure-button {
+	margin-top: 3em;
+}
+
+.appform .pure-button-active {
+	margin-top: 1em;
+}
+
+.appheader {
+	text-align: center;
+}
+
+.appform-col1, .appform-col2 {
+	margin-left: 6em;
+}
+
+#addpos {
+	color: white;
+}
+
+/*footer*/
+.footer {
+	color: #dddddd;
+	background-color: black;
+	margin: 0em;
+	font-size: 10pt;
+	padding-top: 8em;
+	padding-left: 6em;
+	padding-bottom: 2em;
+}
+
+/*other*/
+.pure-form {
+	color: #d31f44;
+}
+
+.menu-separator {
+	color: white;
+}
+
+.pure-button {
+	background-color: #22b14c;
+	color: white;
+}
+
+.main-menu, h3, .content-careers h2, .job-resp ul, .job-req ul, .content-contact label, .appform h2 {
+    font-family: "Kozuka Gothic Pr6n R";
+    src: url('resources/KozGoPro-ExtraLight.otf');
+}
+
+blockquote {
+	font-family: "Kozuka Gothic Pr6n EL";
+    src: url('resources/KozGoPro-ExtraLight.otf');
+}
+
+p {
+	font-family: "Kozuka Gothic Pr6n L";
+    src: url('resources/KozGoPro-ExtraLight.otf');
+}
+
+.content-services h2, label {
+	font-family: "Kozuka Gothic Pr6n B";
+    src: url('resources/KozGoPro-ExtraLight.otf');
+}
+
+.button-xlarge {
+    font-size: 155%;
+}
