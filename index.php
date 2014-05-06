@@ -4,8 +4,9 @@
 <meta charset=utf-8>
 <title>IT Citi Services Inc.</title>
 <!--<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">-->
-<link rel="stylesheet" href="css/pure-min.css">
-<link rel="stylesheet" href="css/stylels.css">
+<link type='text/css' rel="stylesheet" href="css/pure-min.css">
+<link type='text/css' rel="stylesheet" href="css/stylels.css">
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <?php include_once 'header.php'; ?>

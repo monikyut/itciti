@@ -1,9 +1,13 @@
 /*header*/
+
+
+  
 .main-header.pure-menu.pure-menu-open.pure-menu-fixed {
 	background-color: black;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: none;
+	
 }
 
 .main-menu.pure-menu.pure-menu-open.pure-menu-fixed.pure-menu-horizontal {
@@ -30,9 +34,10 @@
 }
 
 .main-menu ul {
+
     float: right;
-    margin-right: 0.5em;
-    word-spacing: -10px;
+    padding-right: 20px;
+    //word-spacing: -10px;
 }
 /*logo*/
 .main-img {
@@ -191,23 +196,23 @@
 }
 
 .main-menu, h3, .content-careers h2, .job-resp ul, .job-req ul, .content-contact label, .appform h2 {
-    font-family: "Kozuka Gothic Pr6n R";
-    src: url('resources/KozGoPro-ExtraLight.otf');
+    font-family: 'PT Sans';
+  
 }
 
 blockquote {
-	font-family: "Kozuka Gothic Pr6n EL";
-    src: url('resources/KozGoPro-ExtraLight.otf');
+	font-family: 'PT Sans';
+    
 }
 
 p {
-	font-family: "Kozuka Gothic Pr6n L";
-    src: url('resources/KozGoPro-ExtraLight.otf');
+	font-family: 'PT Sans';
+  
 }
 
 .content-services h2, label {
-	font-family: "Kozuka Gothic Pr6n B";
-    src: url('resources/KozGoPro-ExtraLight.otf');
+	font-family: 'PT Sans';
+  
 }
 
 .button-xlarge {
