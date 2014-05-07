@@ -53,7 +53,6 @@
                         <div class="pure-u-1-1">
                               <label for="lblposition">Position</label>
                               <input id="position" type="text" placeholder="Position" readonly>
-                              <label for="addposition" id="addpos">+</label>
                         </div>
                         <div class="pure-u-1-1">
                               <label for="lblresume">Upload Resume</label>

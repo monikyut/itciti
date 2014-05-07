@@ -1,5 +1,5 @@
 <div class="main-header pure-menu pure-menu-open pure-menu-fixed">
-	<img src="resources/logo.png" class="main-img"/>
+	<img src="resources/logo.png" id="main-img"/>
 	<div class="main-menu pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
 		<ul>
 			<li><a href="index.php">Home</a></li>
