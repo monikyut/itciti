@@ -1,5 +1,5 @@
 <div id="homepage" class="content-homepage">
-		<a href="#services">
+		<a onclick="$('#services').animatescroll();">
 		<div id="swiffycontainer">
 			<script type="text/javascript" src="<?php echo base_url();?>js/flashstage.js"></script>
     	</div>

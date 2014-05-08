@@ -9,6 +9,8 @@
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 <script src="https://www.gstatic.com/swiffy/v6.0/runtime.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>js/flashanimate.js"></script>
+<script src="<?php echo base_url();?>js/jquery-1.8.3.min.js"></script>
+        <script src="<?php echo base_url();?>js/animatescroll.js"></script>
 </head>
 <body>
 <?php
