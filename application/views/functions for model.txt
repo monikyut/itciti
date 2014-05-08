@@ -1,0 +1,7 @@
+models{
+
+get all category()
+get specific jobs($catid)
+get responsi
+	
+get for advertisement

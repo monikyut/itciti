@@ -1,128 +1,205 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset=utf-8>
-<title>IT Citi Services Inc.</title>
-<!--<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">-->
-<link rel="stylesheet" href="css/pure-min.css">
-<link rel="stylesheet" href="css/stylels.css">
-<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-<script src="https://www.gstatic.com/swiffy/v6.0/runtime.js"></script>
-<script type="text/javascript" src="js/flashanimate.js"></script>
-</head>
-<body>
-<?php include_once 'header.php';?>
-<div class="content">
-	<div id="homepage" class="content-homepage">
-		<a href="index.php#services">
-		<div id="swiffycontainer">
-			<script type="text/javascript" src="js/flashstage.js"></script>
-    	</div>
-    	</a>
-			<img src="resources/background2.png" id="bg-img" class="pure-img-responsive">
-	</div>
-	<div id="bg-right">
-		<div id="about" class="pure-g-r">
-			<div class="pure-u-1 content-about">
-				<h3>About Us</h3>
-				<blockquote>
-					Established just in the advent of the new millenium, and a Filipino owned company as a player in the industry has provided both solutions -oriented and market- driven IT services to wide array of companies in almost all areas of business and industry. The company views each project as a long term partnership with the client. It emphasizes the use of current emerging technologies that best serve the client's business needs.
-				</blockquote>
-				<blockquote>
-					IT Citi Inc. enhances the competitive advantage of its clients through superior use of information technology.
-				</blockquote>
-				<blockquote>
-					IT Citi is committed to help its clients focus on managing their businesses rather than technologies. This is achieved by providing its clients with world-class products and world class IT training and consultancy services. IT Citi's capability to match its IT products with specific business environs ensures customers of solutions that fully address their requirement.
-				</blockquote>
-				<blockquote>
-					It's competitive pricing, technical expertise, its ability to quickly respond to the demands of its clients by providing the most efficient and cost effective solutions have given the company an important place in the Philippine IT industry.
-				</blockquote>
-				<blockquote>
-					Creative, resourceful, self-confident and customer focused are IT Citi Consultant's main character. As a practitioner of structured systems development, IT Citi maintains a full complement of seasoned project managers, information systems analysts, systems designers and programmers. It assigns a formidable assembly of professionals to handle analysis, design, development, implementation, and maintenance of a single client's IT requirements. Together, these experts have developed, maintained and supported IT applications for banking, financial, insurance, manufacturing, realty, pharmaceutical, government institutions and other service oriented institutions. The company strongly values the formation of long lasting relationships with its clients. Client welfare and satisfaction tops the list of concerns in the formulation of solutions to IT problems.
-				</blockquote>
-			</div>
-		</div>
-		<div class="pure-g-r">
-			<div id="services" class="pure-u-1 content-services">
-				<h3>IT CONSULTING</h3>
-				<div class="pure-g-r">
-					<div class="pure-u-1-2">
-						<h2>Placement</h2>
-						<p>
-                			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
-        				</p>
-    				</div>
-    				<div class="pure-u-1-2">
-						<h2>Project-based</h2>	
-						<p>
-                			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
-        				</p>
-    				</div>
-    			</div>
-    		</div>
-		</div>
-	</div>
-	<div id="bg-left">
-		<div id="careers" class="content-careers">
-			<div class="pure-g-r">
-				<div class="pure-u-1-1">
-					<h2>Job Openings</h2>
-				</div>
-			</div>
-			<div class="pure-g-r">
-				<div class="pure-u-1-3">
-				</div>
-				<div class="pure-u-1-3">
-				</div>
-				<div class="pure-u-1-3">
-					<div class="pure-form">
-    					<input id="search" type="text" placeholder="Enter job title..">
-    					<button type="submit" class="pure-button">Search</button>
-					</div>
-				</div>
-			</div>
-			<?php include_once 'careers.php';?>
-			<div class="pure-g-r">
-				<div class="pure-u-1">
-					<!--<button type="submit" class="apply-btn pure-button" onClick="window.open('applicationform.php')">Apply Now</button>-->
-					<button type="submit" class="apply-btn pure-button" onClick="window.location.href='applicationform.php'">Apply Now</button>
-				</div>
-			</div>
-		</div>
-		<div id="contact" class="pure-g-r content-contact">
-			<div class="pure-u-1-3">
-				<h3>Contact Us</h3>
-					<p>
-						Office Address <br /> 3rd Floor Emerald Place Bldg., <br /> 604 Shaw Blvd., <br /> Pasig City, Manila
-    				</p>
-    				<p>
-		    			Telephone No. <br /> 634-7451 <br /> E-mail Address <br /> itct@pldtdsl.net
-    				</p>
-    		</div>
-    		<div class="pure-u-1-3">
-				<div class="pure-form pure-form-message-inline pure-form-stacked">
-					<fieldset>
-						<label for="message">Message</label>
-						<textarea rows="7" cols="40" placeholder="We would love to hear from you!"></textarea>
-						<label for="name">Name</label>
-						<input id="name" type="text" placeholder="Your Name">     
-						<label for="email">Email Address</label>
-						<input id="email" type="email" placeholder="Your Email">
-						<button type="submit" class="pure-button">Send Message</button>
-   					</fieldset>
-				</div>
-			</div>
-			<div class="pure-u-1-3" id="contact-map">
-				<div class="pure-form pure-form-stacked">
-					<fieldset>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3861.4143130124703!2d121.06013600000003!3d14.5754519999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c86e8f7feff9%3A0x6e585905552b3878!2sI.T.+Citi+Services+Inc.!5e0!3m2!1sen!2sph!4v1399120429489" width="200" height="200" frameborder="0" style="border:0"></iframe><br />
-						<button class="pure-button" onClick="window.open('https://goo.gl/maps/r6IlG')">View Map</button>
-					</fieldset>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<?php include_once 'footer.php';?>
-</body>
-</html>
+<?php
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ *
+ */
+	define('ENVIRONMENT', 'development');
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
+
+if (defined('ENVIRONMENT'))
+{
+	switch (ENVIRONMENT)
+	{
+		case 'development':
+			error_reporting(E_ALL);
+		break;
+	
+		case 'testing':
+		case 'production':
+			error_reporting(0);
+		break;
+
+		default:
+			exit('The application environment is not set correctly.');
+	}
+}
+
+/*
+ *---------------------------------------------------------------
+ * SYSTEM FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" folder.
+ * Include the path if the folder is not in the same  directory
+ * as this file.
+ *
+ */
+	$system_path = 'system';
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * folder then the default one you can set its name here. The folder
+ * can also be renamed or relocated anywhere on your server.  If
+ * you do, use a full server path. For more info please see the user guide:
+ * http://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ *
+ */
+	$application_folder = 'application';
+
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here.  For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT:  If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller.  Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ *
+ */
+	// The directory name, relative to the "controllers" folder.  Leave blank
+	// if your controller is not in a sub-folder within the "controllers" folder
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  Mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
+
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ *
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
+
+
+
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
+
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
+
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
+
+	if (realpath($system_path) !== FALSE)
+	{
+		$system_path = realpath($system_path).'/';
+	}
+
+	// ensure there's a trailing slash
+	$system_path = rtrim($system_path, '/').'/';
+
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		exit("Your system folder path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
+	}
+
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+
+	// The PHP file extension
+	// this global constant is deprecated.
+	define('EXT', '.php');
+
+	// Path to the system folder
+	define('BASEPATH', str_replace("\\", "/", $system_path));
+
+	// Path to the front controller (this file)
+	define('FCPATH', str_replace(SELF, '', __FILE__));
+
+	// Name of the "system folder"
+	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
+
+
+	// The path to the "application" folder
+	if (is_dir($application_folder))
+	{
+		define('APPPATH', $application_folder.'/');
+	}
+	else
+	{
+		if ( ! is_dir(BASEPATH.$application_folder.'/'))
+		{
+			exit("Your application folder path does not appear to be set correctly. Please open the following file and correct this: ".SELF);
+		}
+
+		define('APPPATH', BASEPATH.$application_folder.'/');
+	}
+
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ *
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
+
+/* End of file index.php */
+/* Location: ./index.php */
